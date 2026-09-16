@@ -1,3 +1,4 @@
 # ASMx64-antioverflow-prevention
-First POC of this ""better canary"" algorithm
-some printf/python tty exploits may seem to work, but the OS itself filters the inject
+a "better" canary development and testing
+this project prevents buffer overflows, cleans the inject AND preserve the program's execution
+future versions will be able to write this mechanism directly to binaries
